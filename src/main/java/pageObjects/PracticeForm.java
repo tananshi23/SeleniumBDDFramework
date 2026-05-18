@@ -29,6 +29,7 @@ public class PracticeForm {
         private By address = By.xpath("//textarea[@placeholder=\"Currend Address\"]");
         private By state = By.xpath("//select[@id=\"state\"]") ;
         private By cityClick = By.xpath("//select[@id=\"city\"]");
+        private By textxpath = By.xpath("test");
 
 
         public void enterName(String sName){
